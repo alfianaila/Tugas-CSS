@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=devices-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Latihan 4.1</title>
+  </head>
+  <body>
+    <!-- 
+      referensi belajar flexbox (video)
+      https://youtube.com/playlist?list=PLFIM0718LjIU1lWlM34j6E9fMlrrSGZ1k
+      referensi belajar flexbox (tertulis)
+      https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    -->
+    <div class="container-satu">
+      <div class="kolom-satu">
+        <img src="img/foto-berwarna.jpg" />
+      </div>
+      <div class="kolom-dua">
+        <h2>Profile Name</h2>
+        <p>Alfia Naila Salsabila</p>
+        <p>Jl. Sunan Ampel No.199A</p>
+        <p>Email : alfianaila28@gmail.com</p>
+        <p>087889262010</p>
+      </div>
+      <div class="kolom-tiga">
+        <h3>Categories</h3>
+        <ul>
+          <li>STT Terpadu Nurul Fikri</li>
+          <li>Teknik Informatika</li>
+          <li>Angkatan 2021</li>
+          <li>Rombel TI 12</li>
+        </ul>
+      </div>
+      </div>
+      <div class="container-dua">
+        <p>Nama saya Alfia Naila Salsabila. Saya berasal dari Kota Probolinggo, Jawa Timur. </p>
+        <p>Saya merupakan mahasiswa STT Terpadu Nurul Fikri jurusan Teknik Informatika. Alasan saya memilh jurusan ini karena tertarik dan ingin mendalami dunia cyber.</p>
+        </div>
+      <div class="container-tiga">
+    <div class="kolom-empat">
+        <video width="200" height="200" controls>
+            <source src="https://www.youtube.com/watch?v=u7w0B2f91rk&list=PLFIM0718LjIU1lWlM34j6E9fMlrrSGZ1k&index=2" type="video/mp4">
+        </video>
+        </div>
+    <div class="kolom-lima">
+    
+        <p>
+        <img src="img/fdf.jpg" />
+        <img src="img/fdf.jpg" />
+         </p>
+        <p>
+        <img src="img/fdf.jpg" />
+        <img src="img/fdf.jpg" />
+         </p>
+        
+        </div>
+    <div class="kolom-enam">
+        <fieldset>
+            <legend>Attachments</legend>
+            <ul>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Link 1</a></li>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Link 2</a></li>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Link 3</a></li>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Link 4</a></li>
+            </ul>
+        </fieldset>
+        </div>
+   </div>
+  </body>
+</html>
