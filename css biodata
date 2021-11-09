@@ -1,0 +1,48 @@
+body {
+font-family: Arial, Halvetica, sans-serif;
+background-color: #ddd;
+line-height: 1;
+padding-bottom: 1000px;
+}
+
+.container-satu{
+width: 800px;
+margin: 60px auto;
+padding: 60px;
+box-sizing: border-box;
+display: flex;
+}
+.kolom-satu{
+flex: 3;
+}
+.kolom-dua{
+flex: 2;
+}
+.kolom-tiga{
+flex: 2;
+}
+
+.container-dua{
+width: 800px;
+margin: 60px auto;
+padding: 60px;
+box-sizing: border-box;
+}
+.container-tiga{
+width: 800px;
+margin: 60px auto;
+padding: 60px;
+box-sizing: border-box;
+display: flex;
+
+}
+.kolom-empat{
+flex: 1;
+}
+.kolom-lima{
+flex: 1;
+}
+
+.kolom-enam{
+flex: 1;
+}
